@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════╗
+║          🏥 HOSPITAL MANAGEMENT SYSTEM — WINDOWS            ║
+║                    QUICK START GUIDE                        ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ BEFORE YOU BEGIN — Install these tools (one-time):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Java 17+   → https://adoptium.net
+ 2. Maven 3.8+ → https://maven.apache.org/download.cgi
+                 (Add to Windows PATH after install)
+ 3. Node.js 18+→ https://nodejs.org
+ 4. MySQL 8+   → https://dev.mysql.com/downloads/installer/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ FIRST TIME ONLY — Do this ONCE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Double-click:  SETUP_FIRST_TIME.bat
+
+ It will ask you for:
+   • Your MySQL password
+   • Your FREE Gemini API key
+     (Get it at: https://aistudio.google.com/app/apikey)
+
+ Then it sets everything up automatically!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ EVERY TIME — To start the app:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Double-click:  START_HMS.bat
+
+ ✅ Browser opens automatically at http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ To STOP the app:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ Double-click:  STOP_HMS.bat
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Files in this folder:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 📄 SETUP_FIRST_TIME.bat  ← Run ONCE to configure
+ 📄 START_HMS.bat         ← Run every time to launch
+ 📄 STOP_HMS.bat          ← Run to stop the app
+ 📄 README.md             ← Full documentation
+ 📁 backend/              ← Spring Boot source code
+ 📁 frontend/             ← React source code
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
